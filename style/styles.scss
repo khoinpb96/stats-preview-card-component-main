@@ -75,23 +75,11 @@ body {
   }
 }
 
-// .img {
-//   background-image: url(/frontendmentorChallenges/Newbie/stats-preview-card-component-main/img/image-header-desktop.jpg);
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   width: 640px;
-//   position: relative;
-//   .overlay {
-//     background: #4b0079;
-//     width: 100%;
-//     height: 100%;
-//     position: absolute;
-//     opacity: 0.65;
-//   }
-// .attribution {
-//   font-size: 11px;
-//   text-align: center;
-//   a {
-//     color: hsl(228, 45%, 44%);
-//   }
-// }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
