@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+}
+
+body {
+  font-size: 15px;
+  background-color: #090b1a;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 800px;
+  height: 320px;
+  margin: 5rem auto;
+  background-color: #1b1938;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.col {
+  padding: 3rem;
+}
+
+.col h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.col h2 .insight {
+  color: #aa5cdb;
+}
+
+.col p {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 3rem;
+  line-height: 1.25rem;
+}
+
+.col .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.col .row span {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.col .row p {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 0.2rem;
+  font-size: 0.65rem;
+}
+
+.img {
+  position: relative;
+}
+
+.img img {
+  height: 100%;
+}
+
+.img .overlay {
+  background: #490375;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.65;
+}
+/*# sourceMappingURL=styles.css.map */
